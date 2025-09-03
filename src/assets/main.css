@@ -1,0 +1,14 @@
+@import './base.css';
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-sit: #3399cc;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+  --color-backgroud: #fff;
+}
+
+body {
+  @apply bg-backgroud;
+}
